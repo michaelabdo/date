@@ -113,8 +113,15 @@ html, body {
 }
 
 
-.react-date-picker * {
+.react-date-picker {
   color: black;
-  backgroundColor: slateblue;
+  border: thin solid white;
   border-radius: 7px;
+}
+
+.react-date-picker__wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: thin solid gray;
 }
